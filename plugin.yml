@@ -1,0 +1,13 @@
+name: ChatLockPMMP5
+version: 1.0.0
+main: NewPlayerMC\ChatLock
+api: [5.0.0]
+author: NewPlayerMC
+
+permissions:
+  chatlock.use.perm:
+    default: op
+    description: Allow player to /chatlock [on|off]
+  chatlock.bypass.perm:
+    default: op
+    description: Allow player to talk when chatlock is on
